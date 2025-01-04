@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;  /*supaya gambar tidak besar */
+}
+
+.btn-primary {
+     background-color: #FF4B57;
+     border-color: #FF4B57;
+}
+
+.btn-primary:hover {
+    background-color: #f10010;
+    border-color: #f10010;
+}
+
+.text-secondary {
+    color: #dedede !important;
+}
+
+.text-primary {
+    color: #FF4B57 !important;
+}
+
+.bg-dark {
+    background-color: #23253a !important;
+}
+
+.bg-dark-alt {
+    background-color: #2B2E41;
+}
+
+section {
+    padding: 100px 0;
+}
+
+section .header-title {
+    font-size: 100px;
+}
+
+section .section-title {
+    font-size: 52px;
+}
+
+section .section-title {
+    font-size: 42px;
+}
+
+/* Hover untuk kartu proyek */
+.project-section .card:hover {
+    transform: scale(1.0); /* Membesarkan kartu */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Efek transisi */
+    background-color: #333; /* Ubah warna latar belakang kartu */
+  }
+  
+  /* Hover untuk gambar di kartu */
+  .project-section .card img:hover {
+    opacity: 0.9; /* Sedikit transparan saat dihover */
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Hover untuk tombol Kirim Pesan */
+  .contact-me .btn:hover {
+    background-color: #0056b3; /* Warna tombol saat dihover */
+    color: #fff; /* Warna teks putih */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transisi untuk warna */
+  }
+  
+  /* Hover untuk seluruh tautan */
+  .project-section a:hover {
+    text-decoration: none; /* Menghilangkan garis bawah saat hover */
+    color: #fff; /* Ubah warna teks */
+  }
+
+.form-control:focus {
+    color: #23253a !important;
+}
+
+.form-control::placeholder {
+    color: #dedede !important;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 50px 0;
+    }
+
+    section .header-title {
+        font-size: 52px;
+    }
+}
+
+
+footer {
+    background-color: #2B2E41;
+}
